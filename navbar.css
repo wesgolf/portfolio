@@ -1,0 +1,27 @@
+.menud {
+    position: fixed;
+    top: 10px;
+    left: -10px;
+}
+
+.menu {
+    list-style: none;
+}
+
+.navitem {
+    text-decoration: none;
+}
+
+.navv {
+    display: inline-block;
+    margin: 10px;
+    font-size: 1vmax;
+}
+
+.navitem:hover {
+    font-weight: bold;
+}
+
+.navitem:visited {
+    color: black;
+}

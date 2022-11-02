@@ -4,17 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styleh.css">
+    <!-- <link rel="stylesheet" href="styleh.css"> -->
+    <link rel="stylesheet" href="styleindex.css">
+    <link rel="stylesheet" href="navbar.css">
+    <script src="scroll.js"></script>
+    <meta name="description" content="Wesley Roertson">
+    <meta name="keywords" content="Wesley, Robertson, Wesley Robertson">
+    <meta name="keywords" content="Dobule Degree, Waterloo, Univeristy portfolio, portfolio, Laurier, Wilfrid Laurier Univeristy, University of Waterloo">
     <title>Document</title>
 </head>
 <body>
-    <div class="header">
+    <div class="header" id="section1">
         <p class="title">Wesley Robertson</p>
         <p class="sub">Student at Wilfrid Laurier University and University of Waterloo</p>
-        <p class="arrow">&#8595;</p>
+        <div onclick="toTop();" class="arrow" id="scroll">&#8595;</div>
     </div>
     <hr class="line1">
-    <div class="projects">
+    <div class="projects" id="section2">
         <h1 class="proj">Projects</h1>
         <a href="projects.html" class="seeall">See all</a>
         <div class="slideshow-container">
@@ -22,25 +28,25 @@
                 <h1 class="h1">Connect+</h1>
                 <h2 class="h2">Mobile app | Business Project | Spring 2021</h2>
                 <a href="connect.html" class="exp">Explore this project</a>
-                <img src="be5b005f12d04420903de88e003ed4f9.png.webp" alt="">   
+                <img src="be5b005f12d04420903de88e003ed4f9.png.webp" alt="" class="img1">   
             </div>
             <div class="mySlides fade">
                 <h1 class="h1">Hamilton Golf and Country Club <br> Yardage Book</h1>
                 <h2 class="h2">Yardage Book | Personal Project | Summer 2022</h2>
                 <a href="yardage.html" class="exp">Explore this project</a>
-                <img src="be5b005f12d04420903de88e003ed4f9.png.webp" alt="">   
+                <img src="be5b005f12d04420903de88e003ed4f9.png.webp" alt="" class="img1">   
             </div>
             <div class="mySlides fade">
                 <h1 class="h1">Taka Sushi</h1>
                 <h2 class="h2">Menu Design | School Project | Spring 2020</h2>
                 <a href="menu.html" class="exp">Explore this project</a>
-                <img src="be5b005f12d04420903de88e003ed4f9.png.webp" alt="">   
+                <img src="be5b005f12d04420903de88e003ed4f9.png.webp" alt="" class="img1">   
             </div>
             <div class="mySlides fade">
                 <h1 class="h1">Music</h1>
                 <h2 class="h2">Music Production | Personal Project | Ongoing</h2>
                 <a href="connect.html" class="exp">Explore this project</a>
-                <img src="be5b005f12d04420903de88e003ed4f9.png.webp" alt="">   
+                <img src="be5b005f12d04420903de88e003ed4f9.png.webp" alt="" class="img1">   
             </div>
             <div style="text-align:center">
                 <span class="dot" onclick="currentSlide(1)"></span> 
@@ -88,20 +94,20 @@
         <h1 class="abbbb">About</h1>
         <p class="about1">I am currently in a double degree program studying both Business at Wilfrid Laurier University and Mathematics at University of Waterloo. My previous work experiences includes a Staff Accuntant position at Bateman Mackay, backshop attendant at Brantford golf and Country Club, cook at ancaster mill, and finally, co-op graphic designer at DesignWerx. All of these experiences have taught me relevant skills in order to be a excellent leader and team player in the workplace. </p>
         <a href="about.html" class="learnmore">Learn more</a>
-        <img src="Headshot.png" class="imgggg">
+        <img src="Headshot.png" class="imgggg" alt="Headshot">
 
     </div>
     <div class="footer">
-        <p class="thanks">Thank you for checking out my portfolio! If you would like to like to learn more about me, <a href="Resume with Link.pdf" target="_blank" >click here</a>. If you would like to contact me, feel free to <a href="mailto:robe4390@mylaurier.ca">email me</a> or check out my <a href="www.linkedin.com/in/wesleyrobertson1" target="_blank">Linkedin</a>.</p>
+        <p class="thanks">Thank you for checking out my portfolio! If you would like to like to learn more about me, <a href="Resume with Link.pdf" target="_blank" >click here</a>. If you would like to contact me, feel free to <a href="mailto:robe4390@mylaurier.ca">email me</a> or check out my <a href="https://www.linkedin.com/in/wesleyrobertson1" target="_blank">Linkedin</a>.</p>
         <h3 class="copyright">&copy; Wesley Robertson 2022</h3>
     </div>
     <hr class="line3">
 
     <div class="menud">
         <ul class="menu">
-            <li><a href="index.html" class="navitem">Home</a></li>
-            <li><a href="projects.html" class="navitem">Projects</a></li>
-            <li><a href="about.html" class="navitem">About</a></li>
+            <li class="navv"><a href="index.html" class="navitem">Home</a></li>
+            <li class="navv"><a href="projects.html" class="navitem">Projects</a></li>
+            <li class="navv"><a href="about.html" class="navitem">About</a></li>
         </ul>
     </div>
 </body>
